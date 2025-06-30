@@ -18,6 +18,7 @@ export const clientadmin2Modules = [
 export const admin1Modules = [
   { id: 'dashboard', permissions: { canRead: true } },
   { id: 'role-management', permissions: { canRead: true } },
+  { id: 'manage-team', permissions: { canRead: true } },
   { id: 'scheduling-management', permissions: { canRead: true }, submodules: [
     { id: 'manage-shift', permissions: { canRead: true } },
     { id: 'manage-shift-categories', permissions: { canRead: true } },
