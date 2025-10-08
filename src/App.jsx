@@ -154,3 +154,5 @@ function App() {
 }
 
 export default App;
+
+//  checking the rules set 
